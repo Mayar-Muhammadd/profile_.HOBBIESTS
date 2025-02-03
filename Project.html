@@ -1,0 +1,58 @@
+<html>
+    <title>Hoppiests | your profile</title>
+    <head>
+    <h1 style="color: rgb(125, 185, 241); font-size: 9ch;font-style: oblique;background-color: rgb(0, 0,0, .5);text-align: center;">Your Profile</h1>
+ 
+<h1 style="text-align: left">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home Page</a>
+        <a href="#">Following requests</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Settings</a>
+      </div>
+    
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ More</button>  
+      
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    
+    
+    <div class="container">
+    <img style="border-radius: 18ch ; " src="logo.jpeg" alt="Your picture" class="image">
+    <div class="overlay">User Name</div>
+    
+        
+      </div>
+</h1>
+<link rel="stylesheet" href="Style.css">
+</head>
+   > <body background="cover.jpeg";backgrpound-repeat=no-repeat 
+        
+        <div class="dropup">
+            <button class="dropbtn">Pins</button>
+            <div class="dropup-content">
+            <a target="_self"href=MyPins.html>Your Pins</a>
+            <a style="border-radius: 15ch;" target="_self"href=Myfav.html>Your Favourites</a>
+            <a style="border-radius: 15ch;" target="_self"href=Mysaved.html >Saved Pins</a>
+        
+            </div>
+        </div>
+        
+       
+            
+    </body>
+</html>
